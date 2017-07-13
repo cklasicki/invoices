@@ -1,7 +1,7 @@
 package com.demo.invoices;
 
 import com.demo.invoices.service.InvoiceServiceImpl;
-import com.demo.invoices.service.InvoicesService;
+import com.demo.invoices.service.InvoiceService;
 import com.demo.invoices.utils.InvoicesUtils;
 
 /**
@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Rozpoczęcie aplikacji");
 
-        InvoicesService invoicesService = new InvoiceServiceImpl();
+        InvoiceService invoicesService = new InvoiceServiceImpl();
 
         System.out.println(InvoicesUtils.getTotalDebt(invoicesService.getAllInvoices()));
 

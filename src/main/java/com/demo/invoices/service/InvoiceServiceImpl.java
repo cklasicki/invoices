@@ -5,13 +5,12 @@ import com.demo.invoices.domain.Invoice;
 import com.demo.invoices.domain.Invoices;
 
 import java.math.BigDecimal;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
  * Created by czarek on 13.07.2017.
  */
-public class InvoiceServiceImpl implements InvoicesService {
+public class InvoiceServiceImpl implements InvoiceService {
 
     public Invoices getAllInvoices() {
 

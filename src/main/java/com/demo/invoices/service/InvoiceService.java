@@ -5,7 +5,7 @@ import com.demo.invoices.domain.Invoices;
 /**
  * Created by czarek on 13.07.2017.
  */
-public interface InvoicesService {
+public interface InvoiceService {
 
     public Invoices getAllInvoices();
 }
